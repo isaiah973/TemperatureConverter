@@ -1,0 +1,51 @@
+.main-container {
+  width: 700px;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+}
+
+input {
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  padding: 0px;
+  border: 0.1px solid rgb(125, 122, 122);
+  background-color: black;
+  outline: none;
+  color: white;
+  font-family: Roboto;
+  font-size: 25px;
+}
+.box-box {
+  display: flex;
+}
+.fahrenheit-div, .celsius-div {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 70px;
+  border: 1px solid rgb(125, 122, 122);
+  border-radius: 2px;
+}
+.fahrenheit-box, .celsius-box {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  background-color: rgb(56, 57, 58);
+  height: 30px;
+  border: 0.1px solid black;
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+}
+p {
+  color: white;
+  font-family: Roboto;
+  font-size: 19px;
+}
+
