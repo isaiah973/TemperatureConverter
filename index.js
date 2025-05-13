@@ -11,6 +11,13 @@ celInput.addEventListener("input", () => {
    return fahInput.value = converter();
   }
 );
+fahInput.addEventListener("input", () => {
+  function converterToFah() {
+    return (fahInput.value - 32) * 5/9;
+  }
+   return celInput.value = converterToFah();
+  }
+);
 
 
 
